@@ -14,7 +14,7 @@
 ### 实验1：配置开发环境
   即安装Keil µVision 5、mcuisp等软件，过程略
 ### [实验2：初试STM32编程控制](./实验2)
-* [源文件]([./实验2/CAR_STM32F103C6/](https://www.aliyundrive.com/s/NjsdjEs91J6))
+* [源文件](https://www.aliyundrive.com/s/NjsdjEs91J6)
   * 将`/CAR_STM32F103C6/Drivers/`、`/CAR_STM32F103C6/MDK-ARM/`和`/CAR_STM32F103C6/MDK-ARM/CAR_STM32F103C6/`路径下经编译的二进制文件删除，仅保留源文件。
 * [实验报告](./实验2/Report.pdf)
 * [实验要求](./实验2/实验要求.docx)
