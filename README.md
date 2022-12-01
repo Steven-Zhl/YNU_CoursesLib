@@ -37,6 +37,8 @@
 
 * [实验1：进程管理与进程间通信](./操作系统/Introduction.md#实验1进程管理与进程间通信)
 * [实验2：进程调度](./操作系统/Introduction.md#实验2进程调度)
+* [实验3：内存页面置换算法](./操作系统/Introduction.md#实验3内存页面置换算法)
+* [实验4：Linux系统状态信息查询](./操作系统/Introduction.md#实验4Linux系统状态信息查询)
 
 ## [数据库技术](./数据库技术/Introduction.md)
 
