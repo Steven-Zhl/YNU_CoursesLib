@@ -1,4 +1,4 @@
-%% 使用方法：在命令行内调用函数Exp2(func)，func是不同功能的名字。并且要将文件和.m文件放在同一路径下。
+%% 使用方法：在命令行内调用函数Exp2(func)，func是不同功能的名字，要将文件和.m文件放在同一路径下。
 %% 本次实验中6道题的调用语句依次为：
 % 加入椒盐噪声并中值滤波：Exp2("mediumFilter");
 % 四邻域拉普拉斯（空域锐化）滤波：Exp2("4_laplace_filter");
@@ -93,9 +93,7 @@ function Exp2(func)
             imshow(img2);
             title("频域拉普拉斯滤波");
         end
-
     end
-
 end
 
 function img_new = mediumFilter(img, kernel_size)
@@ -103,7 +101,6 @@ function img_new = mediumFilter(img, kernel_size)
     [row_length, col_length] = size(img);
     % 遍历
     for row_start = 1:row_length - kernel_size + 1
-
         for col_start = 1:col_length - kernel_size + 1
             % 取子块
             kernel = img(row_start:row_start + kernel_size - 1, col_start:col_start + kernel_size - 1);
@@ -111,9 +108,7 @@ function img_new = mediumFilter(img, kernel_size)
             key_gray = kernel(round(kernel_size * kernel_size / 2)); % 取中间值
             img_new(row_start + fix(kernel_size / 2), col_start + fix(kernel_size / 2)) = key_gray; % 填色
         end
-
     end
-
 end
 
 function img_new = four_laplace_filter(img, alpha)
@@ -121,16 +116,13 @@ function img_new = four_laplace_filter(img, alpha)
     [row_length, col_length] = size(img);
     % 遍历
     for row_start = 1:row_length - 3
-
         for col_start = 1:col_length - 3
             % 计算中间点的位置
             r = row_start + 1;
             c = col_start + 1;
             img_new(r, c) = (1 + 4 * alpha) * img(r, c) - alpha * (img(r - 1, c) + img(r + 1, c) + img(r, c - 1) + img(r, c + 1)); % 按公式填色
         end
-
     end
-
 end
 
 function img_new = fourier_(img)
@@ -177,7 +169,6 @@ function [image_result] = GLPF(image_2zhi, D0)
     D = zeros(width, high);
     %创建一个width行，high列数组，用于保存各像素点到傅里叶变换中心的距离
     for i = 1:width
-
         for j = 1:high
             D(i, j) = sqrt((i - width / 2)^2 + (j - high / 2)^2);
             %像素点（i,j）到傅里叶变换中心的距离
@@ -186,7 +177,6 @@ function [image_result] = GLPF(image_2zhi, D0)
             image_fftshift(i, j) = H * image_fftshift(i, j);
             %将滤波器处理后的像素点保存到对应矩阵
         end
-
     end
 
     image_result = ifftshift(image_fftshift); %将原点反变换回原始位置
@@ -207,16 +197,13 @@ function new_img = freq_laplace_filter(img)
     %%%%%%%================高频提升（拉普拉斯算子）============================
     %参数A>=1,当其等于1时，为普通的高通滤波器
     A = 2;
-
     for x = 1:M
-
         for y = 1:N
             %计算频率域拉普拉斯算子
             h_hp = 1 + 4 * ((x - M0)^2 + (y - N0)^2) / (M0 * N0);
             h_bp = (A - 1) + h_hp;
             J_shift(x, y) = J_shift(x, y) * h_bp;
         end
-
     end
 
     J = ifftshift(J_shift);
