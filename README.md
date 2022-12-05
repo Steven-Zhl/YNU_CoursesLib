@@ -1,8 +1,23 @@
 # 课程资源共享&&作业开源计划
 
-> 所有内容仅供参考，同时也欢迎大家共同讨论
+> 所有内容仅供参考，同时欢迎大家共同讨论，一起变强！
+>
+> 通常会将源代码和相关报告留在Github和Gitee上，而对于较大的文件（例如较大的实验报告、工程项目以及其他不便于通过git下载的文件）则将其放在网盘上。
+>
+> [**Github链接**](https://github.com/Steven-Zhl/YNU_CoursesLib)
 
 # 大二-第一学期
+
+## [数据结构](./数据结构/Introduction.md)
+
+### [实验](./数据结构/Introduction.md#目录)
+
+* [实验1](./数据结构/Introduction.md#实验1)
+* [实验2](./数据结构/Introduction.md#实验2)
+* [实验3](./数据结构/Introduction.md#实验3)
+* [实验4](./数据结构/Introduction.md#实验4)
+* [实验5](./数据结构/Introduction.md#实验5)
+* [实验6](./数据结构/Introduction.md#实验6)
 
 ## 人工智能程序设计
 
