@@ -12,12 +12,13 @@
 
 ### [实验](./数据结构/Introduction.md#目录)
 
-* [实验1](./数据结构/Introduction.md#实验1)
-* [实验2](./数据结构/Introduction.md#实验2)
-* [实验3](./数据结构/Introduction.md#实验3)
-* [实验4](./数据结构/Introduction.md#实验4)
-* [实验5](./数据结构/Introduction.md#实验5)
-* [实验6](./数据结构/Introduction.md#实验6)
+* [实验1:递归与非递归编程思想](./数据结构/Introduction.md#实验1)
+* [实验2:线性表-顺序存储结构](./数据结构/Introduction.md#实验2)
+* [实验3:线性表-链式存储结构](./数据结构/Introduction.md#实验3)
+* [实验4:线性表相关函数实现](./数据结构/Introduction.md#实验4)
+* [实验5:栈与队列](./数据结构/Introduction.md#实验5)
+* [实验6:树与二叉树](./数据结构/Introduction.md#实验6)
+* [实验7:图](./数据结构/Introduction.md#实验7)
 
 ## 人工智能程序设计
 
