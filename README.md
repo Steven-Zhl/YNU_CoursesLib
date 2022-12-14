@@ -32,6 +32,8 @@
 
 ### [课程讲义](https://github.com/wangjin0818/Computer_Network_2023/)
 
+### [Packet Tracer汉化包](./计算机网络/Introduction.md#packet-tracer汉化包)
+
 ### [实验](./计算机网络/Introduction.md#目录)
 
 * [实验3：子网掩码与划分子网](./计算机网络/Introduction.md#实验3-子网掩码与划分子网)
@@ -46,6 +48,7 @@
 * [实验12：路由信息协议(RIP)实验](./计算机网络/Introduction.md#实验12-路由信息协议rip实验)
 * [实验13：开放最短路径优先(OSPF)实验](./计算机网络/Introduction.md#实验13-开放最短路径优先ospf实验)
 * [实验14：访问控制列表(ACL)实验](./计算机网络/Introduction.md#实验14-访问控制列表acl实验)
+* [实验15：《计算机网络实验》期末综合设计](./计算机网络/Introduction.md#实验15-计算机网络实验期末综合设计)
 
 ## [操作系统](./操作系统/Introduction.md)
 
