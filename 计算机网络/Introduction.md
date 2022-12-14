@@ -17,7 +17,15 @@
 
 ## 目录
 
+### [Packet Tracer汉化包](./Chinese_chi.ptl)
+
+* 亲测可在Packet Tracer 8.2.0（Windows版）上稳定运行。
+* 使用方法：下载后将其移动至`Packet Tracer安装路径/languages`路径下。然后打开软件，点击`Options-Preferences-Interface`，在下方`Select Language`中选择"Chinese_chi.ptl"，然后点击右侧`Change Language`，随后重启即可。
+* 感谢汉化包提供者[湖科大教书匠](https://space.bilibili.com/360996402)老师，制作的Packet Tracer仿真实验系列视频也非常不错
+
 ### [课程讲义](https://github.com/wangjin0818/Computer_Network_2023/)
+
+* 点击链接，跳转到津宝的Repository中查看
 
 ### 实验3: 子网掩码与划分子网
 
@@ -78,3 +86,11 @@
 
 * [源文件](./实验14/exp14.pkt)
 * [实验报告](./Report12-14.pdf)
+
+### 实验15：《计算机网络实验》期末综合设计
+
+* [源文件](./实验15-期末实验_校园网搭建/trick.md)
+* [设计要求](./实验15-期末实验_校园网搭建/计算机网络实验-期末考核要求.pdf)
+  * 对于本作业的要求
+* [说明文档](./实验15-期末实验_校园网搭建/README.md)
+  * 鉴于本次实验项目比较复杂，特编辑了一份说明文档，以便于大家理解
