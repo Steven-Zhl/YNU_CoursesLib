@@ -143,8 +143,8 @@
     在本Markdown中，命令的高亮和注释格式都借用了Matlab语法，以便于查看。但这不便于直接复制粘贴进行配置。你可以使用正则表达式删除命令中无用的部分，以下是一种可用的规则。
 > 以下这两条规则可能会将Markdown正文中的部分内容删除，所以请只将其用于命令中。
 
-* `[A-Z]{1}([A-Za-z0-9])+(\()?([A-Za-z\-])+(\))?[#>]{1}` :用以删除设备名和菜单页名
-* `% ?.*\n` :用以删除文中Matlab风格的注释
+* `[A-Z]{1}([A-Za-z0-9])+(\(([A-Za-z\-])+\))?[#>]{1}` :用以删除设备名和菜单页名
+* `% ?.*` :用以删除文中Matlab风格的注释
 
 ### 1. 划分子网与配置VLAN
 
@@ -402,6 +402,7 @@
 * 教学楼交换机
 
   ```Matlab
+  Switch#conf t
   Switch(config)#vlan 30
   Switch(config-vlan)#ex
   % fastEthernet 0/1-2是上游端口，fastEthernet 0/3-4是下游端口
@@ -417,6 +418,7 @@
 * 图书馆交换机
 
   ```Matlab
+  Switch#conf t
   Switch(config)#vlan 40
   Switch(config-vlan)#ex
   % fastEthernet 0/1-2是上游端口，fastEthernet 0/3-4是下游端口
@@ -553,6 +555,7 @@
   RouterOut(config-if)#ip address 200.10.1.1 192.0.0.0
   RouterOut(config-if)#clock rate 64000
   RouterOut(config-if)#no shutdown
+  RouterOut(config-if)#ex
   ```
 
   这时候应该能看到三个路由器之间的链路已经全绿了。
@@ -605,7 +608,7 @@
   SwitchCore1(config-if-range)#switchport trunk encapsulation dot1q
   SwitchCore1(config-if-range)#switchport mode trunk
   SwitchCore1(config-if-range)#channel-group 1 mode on
-  SwitchCore1(config-if-range)#end
+  SwitchCore1(config-if-range)#ex
 
   SwitchCore1(config)#spanning-tree mode pvst 
   SwitchCore1(config)#spanning-tree vlan 10,20,30,40 root primary % 设置VLAN10、VLAN20、VLAN30、VLAN40的根桥为核心交换机1
@@ -623,7 +626,7 @@
   SwitchCore2(config-if-range)#switchport trunk encapsulation dot1q
   SwitchCore2(config-if-range)#switchport mode trunk
   SwitchCore2(config-if-range)#channel-group 1 mode on
-  SwitchCore2(config-if-range)#end
+  SwitchCore2(config-if-range)#ex
 
   SwitchCore2(config)#spanning-tree mode pvst
   SwitchCore2(config)#spanning-tree vlan 50,60,70,80,90 root primary % 这里就把VLAN50、VLAN60的根桥设置为核心交换机2了，与SwitchCore1的设置相反
@@ -786,9 +789,9 @@
 
 #### (1) 指令配置
 
-* 核心三层交换机1上配置OSPF
-
 > 目的是能让无线路由器与校园网内进行通信
+
+* 核心三层交换机1上配置OSPF
 
   ```Matlab
   SwithchCore1(config)#int FastEthernet0/11
