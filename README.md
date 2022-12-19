@@ -10,7 +10,7 @@
 
 ## [数据结构](./数据结构/Introduction.md)
 
-### [实验](./数据结构/Introduction.md#目录)
+### 实验
 
 * [实验1:递归与非递归编程思想](./数据结构/Introduction.md#实验1)
 * [实验2:线性表-顺序存储结构](./数据结构/Introduction.md#实验2)
@@ -22,7 +22,9 @@
 
 ## 人工智能程序设计
 
-### [期末作业](https://github.com/Steven-Zhl/SimpleImgProcess)
+### 作业
+
+* [作业-期末](https://github.com/Steven-Zhl/SimpleImgProcess)
 
 > 我在之前就将其开源了，并且在当时就用Python numpy和opencv重写了一个简单的图像处理算法（自动色阶算法，可以视为彩色版本的灰度直方图均衡化）
 
@@ -34,7 +36,7 @@
 
 ### [Packet Tracer汉化包](./计算机网络/Introduction.md#packet-tracer汉化包)
 
-### [实验](./计算机网络/Introduction.md#目录)
+### 实验
 
 * [实验3：子网掩码与划分子网](./计算机网络/Introduction.md#实验3-子网掩码与划分子网)
 * [实验4：交换机基本配置](./计算机网络/Introduction.md#实验4-交换机基本配置)
@@ -52,7 +54,7 @@
 
 ## [操作系统](./操作系统/Introduction.md)
 
-### [实验](./操作系统/Introduction.md#目录)
+### 实验
 
 * [实验1：进程管理与进程间通信](./操作系统/Introduction.md#实验1进程管理与进程间通信)
 * [实验2：进程调度](./操作系统/Introduction.md#实验2进程调度)
@@ -61,26 +63,29 @@
 
 ## [数据库技术](./数据库技术/Introduction.md)
 
-### [实验](./数据库技术/Introduction.md#目录)
+### 实验
 
 * [实验1](./数据库技术/Introduction.md#实验1mysql基本操作)
 * [实验2](./数据库技术/Introduction.md#实验2数据的插入更新与删除数据的简单查询)
+* [实验-期末](./数据库技术/Introduction.md#实验-期末)
 
-### [作业](./数据库技术/Introduction.md#目录)
+### 作业
 
 ## [图像理解与计算机视觉](./图像理解与计算机视觉/Introduction.md)
 
-### [实验](./图像理解与计算机视觉/Introduction.md#目录)
+### 实验
 
 * [实验1：图像变换](./图像理解与计算机视觉/Introduction.md#实验1图像变换)
 * [实验2：图像滤波](./图像理解与计算机视觉/Introduction.md#实验2图像滤波)
 * [实验3：图像复原](./图像理解与计算机视觉/Introduction.md#实验3图像复原)
 * [实验4：形态学处理](./图像理解与计算机视觉/Introduction.md#实验4形态学处理)
 * [实验5：图像分割](./图像理解与计算机视觉/Introduction.md#实验5图像分割)
+* [实验6：图像描述](./图像理解与计算机视觉/Introduction.md#实验6图像描述)
+* [实验7：计算机视觉典型应用](./图像理解与计算机视觉/Introduction.md#实验7计算机视觉典型应用)
 
 ## [运筹学](./运筹学/Introduction.md)
 
-### [实验](./运筹学/Introduction.md#目录)
+### 实验
 
 * [实验1:单纯形法(Simplex Method)](./运筹学/Introduction.md#实验1单纯形法simplex-method)
 * [实验2：对偶问题与对偶单纯形法(Dual simplex method)](./运筹学/Introduction.md#实验2对偶问题与对偶单纯形法dual-simplex-method)
@@ -88,7 +93,7 @@
 
 ## [机器人学导论](./机器人学导论/Introduction.md)
 
-### [实验](./机器人学导论/Introduction.md#目录)
+### 实验
 
 * [实验1：配置开发环境](./机器人学导论/Introduction.md#实验1配置开发环境)
 * [实验2：编程控制1](./机器人学导论/Introduction.md#实验2编程控制1)
