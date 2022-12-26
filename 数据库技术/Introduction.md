@@ -1,4 +1,4 @@
-# 《数据库技术》课程的作业与实验
+# 《数据库技术》课程的相关资料
 
 > 这是一门非常实用的课，本身其出现就是因为现实需求。
 >
@@ -20,19 +20,18 @@
 
 ### [实验1：MySQL基本操作](./实验1/)
 
-* [SQL脚本](./实验1/script.sql)
-* [E-R图演示](./实验1/World库中的E-R图.drawio)
-  * 该文件需要用Draw.io渲染方可查看
-* [实验报告](./实验1/Report.pdf)
+* SQL脚本：[`script.sql`](./实验1/script.sql)
+* E-R图演示：[World库中的E-R图.drawio](./实验1/World库中的E-R图.drawio)
+* 实验报告：[Report.pdf](./实验1/Report.pdf)
 
 ### [实验2：数据的插入、更新与删除；数据的简单查询](./实验2/)
 
-* [SQL脚本](./实验2/script.sql)
-* [实验报告](./实验2/Report.pdf)
+* SQL脚本：[`script.sql`](./实验2/script.sql)
+* 实验报告：[Report.pdf](./实验2/Report.pdf)
 
-### [实验-期末](./实验-期末/)
+### [实验10：期末综合实验](./实验10-期末综合实验/)
 
-* [README.md](./实验-期末/README.md)
-* [Source](./实验-期末/Source/): Python项目
-* [Image](./实验-期末/Image/): 一些绘制的图与绘图的源文件
-* [Documents](./实验-期末/Documents/): 实验要求、实验报告、演示PPT
+* 项目介绍：[`README.md`](./实验10-期末综合实验/README.md)
+* Python工程：[Source](./实验10-期末综合实验/Source/)
+* 绘图与绘图源文件：[Image](./实验10-期末综合实验/Image/)
+* 实验要求、实验报告、演示PPT：[Documents](./实验10-期末综合实验/Documents/)
