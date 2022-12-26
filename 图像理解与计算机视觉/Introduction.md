@@ -25,7 +25,7 @@
 * 完整项目：[Code](./实验1/Code)
 * 实验报告：[Report.pdf](./实验1/Report.pdf)
 
-### 实验1：References
+### 实验1-References
 
 > `equalizeImg(img, bin)` (灰度直方图均衡化)
 
@@ -37,7 +37,7 @@
 * 完整项目：[Code](./实验2/Code)
 * 实验报告：[Report.pdf](./实验2/Report.pdf)
 
-### 实验2：References
+### 实验2-References
 
 > `freq_laplace_filter()` (频域拉普拉斯滤波)
 
@@ -54,7 +54,7 @@
 * 完整项目：[Code](./实验3/Code)
 * 实验报告：[Report.pdf](./实验3/Report.pdf)
 
-### 实验3：References
+### 实验3-References
 
 * （无）
 
@@ -74,7 +74,7 @@
 * 完整项目：[Code](./实验5/Code)
 * 实验报告：[Report.pdf](./实验5/Report.pdf)
 
-### 实验5：References
+### 实验5-References
 
 * 有很多，但因为当时的搜索记录并未及时保留，暂无法列出。
 
@@ -85,7 +85,7 @@
   * 对于`sift`算法，需要下载`siftWin32.exe`文件，并将其放在Matlab安装路径的`bin`文件夹下才可使用。不提供具体下载链接了，自行搜索即可。
 * 实验报告：[Report.pdf](./实验6/Report.pdf)
 
-### 实验6：References
+### 实验6-References
 
 > (SIFT算法)
 
@@ -109,7 +109,7 @@
   * 这两份文件老师应当会提供的
 * 实验报告：[Report.pdf](./实验7/Report.pdf)
 
-### 实验7：References
+### 实验7-References
 
 > `frame_difference_3(video, frame_num)` (三帧差分法)
 
